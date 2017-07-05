@@ -49,7 +49,7 @@ gulp.task('clean', function(){
 	return del.sync('dist');
 })
 
-gulp.task('clean', function(){
+gulp.task('clear', function(){
 	return cahe.clearAll();
 })
 
